@@ -8,7 +8,7 @@ api = Api(app)
 class HelloWorld(Resource):
     @staticmethod
     def get():
-        return {'Hello' : 'world'}, 200
+        return {'Hello': 'world'}, 200
 
 
 api.add_resource(HelloWorld, '/')
